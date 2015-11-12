@@ -375,5 +375,265 @@ footer
 .Footp a 
 {
 	text-decoration: none;
+}
 
+/*Search page Css */
+
+.nav_cont
+{
+	margin-top: 140px;
+	
+}
+.tab1 a
+{
+	
+	font-size: 16px;
+	font-family: Corbel;
+}
+.tab1:hover
+{
+	background-color: #FCB941;
+	border: 10px
+	transition:all .4s ease;
+}
+.ad_well
+{
+	margin-top: 30px;
+	background-color: #fff;
+	background-image: none;
+}
+.look, .age, .manglik, .height, .Edu, .body_type, .country,
+.state, .income, .family, .occuptn, .maritial, .child, .rslt_btn label 
+{
+	margin-top: 15px;
+	line-height: 30px;
+	font-family: Corbel;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.gen label
+{
+	margin-top: -3px;
+}
+
+.checkbox-inline + .checkbox-inline, .radio-inline + .radio-inline {
+    margin-top: -3px;
+    margin-left: 10px;
+}
+
+.age, .form-group
+{
+	margin-bottom: 0;
+}
+
+.checkbox
+{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.mang 
+{
+	line-height: 35px;
+}
+input[type="checkbox"], input[type="radio"] 
+{
+    margin: 12px 0px 0px;
+    line-height: normal;
+}
+.state_col, .occuptn_col
+{
+	margin-top: 15px;
+}
+.rslt_btn
+{
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+.rslt_btn a
+{
+	background-image: none;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: Corbel;
+	transition:all .4s ease;
+	border: 3px solid #4183D7;
+	
+}
+.rslt_btn a:hover
+{
+	background-color: #22313F;
+	transition:all .2s linear;
+	color: #F2F1EF;
+	border-radius: 4px;
+	border:3px solid #F9BF3B;
+}
+.q_well
+{
+	margin-top: 30px;
+	background-image: none;
+	background-color: #EEE657;
+}
+.
+{
+	background-image: none;
+	background-color: #fff;
+	
+}
+.quick_btn button
+{
+	margin-top: 20px;
+	background-image: none;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: Corbel;
+	transition:all .4s ease;
+	border: 3px solid #4183D7;
+}
+.quick_btn button:hover
+{
+	background-color: #22313F;
+	transition:all .2s linear;
+	color: #F2F1EF;
+	border-radius: 4px;
+	border:3px solid #F9BF3B;
+}
+
+
+
+
+
+
+
+/* Search Column*/
+
+.Srch_col
+{
+	margin-top: 130px;
+}
+
+.head h5
+{
+	font-family: Corbel;
+	font-size: 22px;
+	font-weight: 600;
+}
+.cont 
+{
+	background-image: none;
+	background-color: #fff;
+}
+.gen_srch
+{
+	padding-top: 10px;
+	background-color: #EDD834;
+	background-image: none;
+}
+.gen_srch h6
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-family: Corbel;
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+.gen_radio
+{
+	font-size: 16px;
+	line-height: 30px;
+}
+.radio-inline input[type="radio"] {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.age_srch, .mang_srch, .height_srch, .Edu_srch, .body_type_srch,
+.country_srch, .state_srch, .income_srch, .family_srch, .occuptn_srch,
+.maritial_srch, .child_srch
+{
+	padding-top: 10px;
+	background-image: none;
+	height: 100px;
+	background-color: #EDD834;
+}
+.age_srch h6, .mang_srch h6, .height_srch h6, .Edu_srch h6,
+.body_type_srch h6, .country_srch h6, .state_srch h6, .income_srch h6,
+.family_srch h6, .occuptn_srch h6, .maritial_srch h6, .child_srch h6
+{
+	margin-top: 0;
+	margin-bottom: 10;
+	font-size: 18px;
+	font-family: Corbel;
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+.mang_srch input[type="checkbox"]
+{
+	margin-top: 5px;
+}
+.p3_btn button
+{
+	background-image: none;
+	transition:all .2s ease;
+	border: 3px solid #fff;
+}
+.p3_btn button:hover
+{
+	background-color: #2C82C9;
+	transition:all .2s ease;
+	font-size: 20px;
+	color: #D4D4D4;
+	border: 3px solid #FEC606;
+}
+
+.disp_well
+{
+	background-image: none;
+	background-color: #fff;
+
+}
+.pic img 
+{
+	height: 150px;
+	width: 150px;
+	margin-top: 42px;
+    margin-left: 21px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    transition:all .4s ease;
+}
+.pic img:hover
+{
+	border: 4px solid #FCB941;
+    transition:all .4s ease;
+}
+.disp h3
+{
+	font-size: 32px;
+	font-family: Corbel;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+}
+.detail h5
+{
+	margin-top: -2px;
+	margin-bottom: 0;
+	line-height: 25px;
+	font-family: Corbel;
+	font-weight: 200;
+	font-size: 16px;
+}
+.detail label
+{
+	line-height: 23px;
+}
+.end
+{
+	margin-top: 20px;
+}
+.end a 
+{
+	border: 2px solid #fff;
 }
