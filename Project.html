@@ -14,7 +14,7 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/css" href="file:///C:\Users\sumit\Desktop\Project\Css\style.css">	
+	<link rel="stylesheet" type="text/css" href="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Css\style.css">	
 
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
 
@@ -24,35 +24,46 @@
 	
 		<div class="navbar navbar-transparent navbar-fixed-top">
 			<div class="container">
-				<a href="#" class="navbar-brand">Maheshwari.org</a>
-				<div class="form-inline pull-right">
+				<div class="container nav-buttons text-center">
+					<a href="#home" class="btn btn-xs btn-fill btn-default">HOME</a>
+					<a href="#register" class="btn btn-xs btn-fill btn-default">REGISTER</a>
+					<a href="#search" class="btn btn-xs btn-fill btn-default">SEARCH</a>
+					<a href="#success" class="btn btn-xs btn-fill btn-default">SUCCESS STORIES</a>
+					<a href="#contact" class="btn btn-xs btn-fill btn-default">CONTACT US</a>
+				</div>
+				
+				<div class="form-inline text-center first_form">
 					<input type="text" class="form-control" placeholder="Profile ID">
 					<input type="password" class="form-control" placeholder="Password">
-					<button type="button" class="btn btn-md btn-info btn-fill">Login</button>
+					<button type="button" class="btn btn-md btn-default btn-fill">LOGIN</button>
 				</div>
+				
 			</div>
 		</div>
 
-
-		<div class="container">
-			<div class="well frm">
-				<div class="row text-center">
-					<h2>Register Yourself for <strong>Free!!</strong></h2>
-				</div>
+		
+	
 
 
-		<form action="">
+
+<div class="container">
+	<div class="container">
+		<div class="well slide_well text-center">
+			<div class="row text-center ">
+				<h2>Register Yourself for <strong>Free!!</strong></h2>
+			</div>
+
+
+			<form action="">
 			<br>
 			<div class="row">
 				<div class="col-md-3 text-center">
 					<label class="col1">Your Name</label>
 				</div>
-				<div class="col-md-4">
-					<input type="text" class="form-control" placeholder="Your First Name">
+				<div class="col-sm-offset-1 col-md-6">
+					<input type="text" class="form-control" placeholder="Your Full Name">
 				</div>
-				<div class="col-md-4">
-					<input type="text" class="form-control" placeholder="Your Last Name">
-				</div>
+				
 			</div>
 
 			<div class="row Rgrp">
@@ -60,7 +71,7 @@
 					<label class="col1">Gender</label>
 				</div>
 
-				<div class="col-md-2 text-center Rgrp2">
+				<div class="col-sm-offset-1 col-md-2 text-center Rgrp2">
 					<label class="radio-inline">
 						<input type="radio" name="inlineRadioOptions" id="male" value="option1"> Male
 					</label>
@@ -78,7 +89,7 @@
 					<label>Date Of Birth</label>
 				</div>
 
-				<div class="col-md-3 text-center">
+				<div class="col-sm-offset-1 col-md-2 text-center">
 					<div class="form-group">
 						<select class="form-control">
 							<option value="0" selected>Date</option>
@@ -117,7 +128,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 text-center">
+				<div class="col-md-2 text-center">
 					<div class="form-group">
 						<select class="form-control">
 							<option value="0" selected>Month</option>
@@ -181,7 +192,7 @@
 					<label>Religion</label>
 				</div>
 
-				<div class="col-md-4 text-center">
+				<div class="col-sm-offset-1 col-md-6 text-center">
 					<div class="form-group">
 						<select class= "form-control" name="RELIGION" id="RELIGION">
 							<option value="0" selected>Select Religion</option>
@@ -211,7 +222,7 @@
 					<label>Mother Tongue</label>
 				</div>
 
-				<div class="col-md-4 text-center">
+				<div class="col-sm-offset-1 col-md-6 text-center">
 					<div class="form-group">
 						<select class="form-control" name="MOTHERTONGUE" id="MOTHERTONGUE">
 							<option value="0" selected="">Select Mother Tongue</option>
@@ -283,7 +294,7 @@
 					<label>Living In </label>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-sm-offset-1 col-md-6">
 					<div class="form-group">
 						<select class="form-control" name="COUNTRY" id="COUNTRY">
 							<option value="0">Select Country living in</option>
@@ -322,7 +333,7 @@
 					<label>Profile For</label>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-sm-offset-1 col-md-6">
 					<div class="form-group">
 						<select class="form-control" name="REGISTERED_BY" ID="REGISTERED_BY">
 							<option value="0">Select Matrimony Profile for</option>
@@ -343,7 +354,7 @@
 					<label>Mobile No.</label>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-sm-offset-1 col-md-6">
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Your Phone number">
 					</div>
@@ -355,7 +366,7 @@
 					<label>Email Id</label>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-sm-offset-1 col-md-6">
 					<div class="form-group">
 						<input type="email" class="form-control" placeholder="Your Email ID">
 					</div>
@@ -367,7 +378,7 @@
 					<label>Password</label>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-sm-offset-1 col-md-6">
 					<div class="form-group">
 						<input type="password" class="form-control" placeholder="Your Password">
 					</div>
@@ -375,26 +386,73 @@
 			</div>
 			
 			<div class="row text-center Sub">
-				<div class="col-md-offset-4">
-					<button type="submit" class=" col-md-5 btn btn-lg btn-info btn-fill sub">Register for Free </button>
+				<div class="col-md-12">
+					<button type="submit" class="btn btn-lg btn-info btn-fill sub">REGISTER </button>
 				</div>
 				
 			</div>
 		</form>
-	</div>
 
 
-	<div class="row text-center">
-		<h1>Find Your Someone Special</h1>
+</div>
+		</div>
 	</div>
+	<div class="carousel slide slide" data-ride="carousel" id="c1">
+		<ol class="carousel-indicators">
+			<li data-target="#c1" data-slide-to="0" class="active"></li>
+			<li data-target="#c1" data-slide-to="1"></li>
+			<li data-target="#c1" data-slide-to="2"></li>
+			<li data-target="#c1" data-slide-to="3"></li>
+			<li data-target="#c1" data-slide-to="4"></li>
+		</ol>
+		
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\demo.jpg" >	
+				</div>
+				<div class="item">
+					<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\demo-3.jpg">
+				</div>
+				<div class="item">
+					<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\demo-1.jpg">
+				</div>
+				<div class="item">
+					<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\demo-2.jpg">
+				</div>
+				<div class="item">
+					<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\demo-4.jpg">
+				</div>
+			</div>
+	</div>
+
 	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="row text-center S_head">
+		<h2>Find Your Someone Special</h2>
+	</div>
+	<div class="container">
 		<div class="well search">
 			<div class="row search-row">
 				<div class="col-md-2 Srch-radio_grp">
 					<label class="radio-inline">
 						<input type="radio" name="inlineRadioOptions" id="male" value="option1"> Bride
 					</label>
-					<label class="radio-inline">
+					<label class="radio-inline" id="fe">
 						<input type="radio" name="inlineRadioOptions" id="female" value="option1"> Groom
 					</label>
 				</div>
@@ -409,7 +467,7 @@
 					<div class="form-group Search_grp">
 							<select class="form-control" name="MOTHERTONGUE" id="MOTHERTONGUE">
 								<option value="0" selected="">Select Mother Tongue</option>
-								<optgroup label="&nbsp;&nbsp;&nbsp;&nbsp;-- Frequently Used --" class="a">
+								<optgroup label="&nbsp;&nbsp;&nbsp;&nbsp;Frequently Used" class="a">
 									<option value="1">Assamese</option>
 									<option value="2" >Bengali</option>
 									<option value="3">English</option>
@@ -470,7 +528,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<div class="form-group Search_grp">
 							<select class= "form-control" name="RELIGION" id="RELIGION">
 								<option value="0" selected>Select Religion</option>
@@ -494,8 +552,8 @@
 						</div>
 					</div>
 
-					<div class="col-md-2">
-						<button type="submit" class="btn btn-md btn-warning btn-fill Srch_btn">Search</button>
+					<div class="col-md-3">
+						<button type="submit" class="btn btn-md btn-warning btn-fill  btn-group-justified Srch_btn">SEARCH</button>
 					</div>
 				</div>
 
@@ -503,84 +561,84 @@
 					<div class="col-md-offset-9 col-md-3">
 						<div class="right">
 							<h6><a href="#">Search By ID</a></h6>
-							<h6><a href="#">More Search Options</a></h6>
+							<h6><a href="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Project2.html">More Search Options</a></h6>
 						</div>
 					</div>
 				</div>
 			</div>
-
+		</div>
 
 			<div class="row heading text-center">
 				<h2>Success stories!!</h2>
 			</div>
 			
-			<div class="carousel slide" data-ride="carousel" id="c1">
+			<div class="carousel slide C2" data-ride="carousel" id="c2">
 				<ol class="carousel-indicators">
-					<li data-target="#c1" data-slide-to="0" class="active"></li>
-					<li data-target="#c1" data-slide-to="1"></li>
-					<li data-target="#c1" data-slide-to="2"></li>
-					<li data-target="#c1" data-slide-to="3"></li>
-					<li data-target="#c1" data-slide-to="4"></li>
+					<li data-target="#c2" data-slide-to="0" class="active"></li>
+					<li data-target="#c2" data-slide-to="1"></li>
+					<li data-target="#c2" data-slide-to="2"></li>
+					<li data-target="#c2" data-slide-to="3"></li>
+					<li data-target="#c2" data-slide-to="4"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="file:///C:\Users\sumit\Desktop\Project\Images\m1.jpg" alt="Mustang">
+						<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\m-3.jpg" alt="">
 						<div class="carousel-caption">
 							<h2>Abc & xyz</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
 						</div>
 					</div>
 						<div class="item">
-							<img src="file:///C:\Users\sumit\Desktop\Project\Images\m1.jpg">
+							<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\m-3.jpg">
 							<div class="carousel-caption">
 								<h2>Avsw & fasf</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
 							</div>
 						</div>
 						<div class="item">
-							<img src="file:///C:\Users\sumit\Desktop\Project\Images\m1.jpg">
+							<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\m-3.jpg">
 							<div class="carousel-caption">
 								<h2>Rahul & nidhi</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
 							</div>
 						</div>
 						<div class="item">
-							<img src="file:///C:\Users\sumit\Desktop\Project\Images\m1.jpg">
+							<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\m-3.jpg">
 							<div class="carousel-caption">
 								<h2>A & B</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
 							</div>
 						</div>
 						<div class="item">
-							<img src="file:///C:\Users\sumit\Desktop\Project\Images\m1.jpg	">
+							<img src="file:///C:\Users\sumit\Desktop\Project\RS-Matrimonial\Images\m-3.jpg	">
 							<div class="carousel-caption">
 								<h2>Ab & Bc</h2>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
 							</div>
 						</div>
 					</div>
-					<a href="#c1" class="left carousel-control" data-slide="prev">
+					<a href="#c2" class="left carousel-control" data-slide="prev">
 						<span class="glyphicon glyphicon-chevron-left" ></span>
 					</a>
-					<a href="#c1" class="right carousel-control" data-slide="next">
+					<a href="#c2" class="right carousel-control" data-slide="next">
 						<span class="glyphicon glyphicon-chevron-right" ></span>
 					</a>
 				</div>	
 			
-		</div>
+		
 		<hr>
 		<div class="container">
 		
 			<div class="row">
-				<div class="col-sm-3 Pro_main">
+				<div class="col-xs-3 Pro_main">
 					<h4>Browse Matromony Profile By</h4>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-2 Pro_head">
+				<div class="col-xs-2 Pro_head">
 					<h5>Mother Tongue</h5>
 				</div>
-				<div class="col-sm-8 Pro_grp">
+				<div class="col-xs-8 Pro_grp">
 					<ol>
 						<li><a href="">Hindi</a></li>
 						<li><a href="">Urdu</a></li>
@@ -599,10 +657,10 @@
 			</div>
 
 			<div class="row">
-				<div class="col-sm-2 Pro_head">
+				<div class="col-xs-2 Pro_head">
 					<h5>Religion</h5>
 				</div>
-				<div class="col-sm-8 Pro_grp">
+				<div class="col-xs-8 Pro_grp">
 					<ol>
 						<li><a href="">Hindi</a></li>
 						<li><a href="">Muslim</a></li>
@@ -621,10 +679,10 @@
 			</div>
 
 			<div class="row">
-				<div class="col-sm-2 Pro_head">
+				<div class="col-xs-2 Pro_head">
 					<h5>Caste</h5>
 				</div>
-				<div class="col-sm-8 Pro_grp">
+				<div class="col-xs-8 Pro_grp">
 					<ol>
 						<li><a href="">Agarwal</a></li>
 						<li><a href="">Brahmin</a></li>
@@ -683,34 +741,10 @@
 			</div>
 		</footer>
 
-					
-					
-				
-			
-		
-			
-
-
-
-	
-	
-	
-
-
-	
-		
-
-		
-
-
-	
-
-
-
-
 
 <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </body>
 </html>
