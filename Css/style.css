@@ -24,7 +24,7 @@
 }
 .nav-buttons> .btn-default
 {
-	padding: 5px 45px;
+	padding: 1px 45px;
 	border-radius: 0;
 	margin-right: 5px;
 	font-size: 20px;
@@ -94,22 +94,24 @@
 	box-shadow: 2px 2px 1px #2CC990;
 	
 }
-.slide
+/*.slide
 {
 	margin-top: 130px;
-}
+}*/
 .slide_well
 {
-	position: absolute;
-	z-index: 100;
 	background-image: none;
 	background-color: #fff;
-	width: auto;
-	margin-top: 255px;
+	width: 75%;
+	margin-top: 130px;
 	opacity: .9;
-	right: 270px;
-	left: 270px;
+	margin-bottom: 20px;
+	border: 2px solid #ccc;
+	transition:all .4s ease;
+	box-shadow: none;
+	margin-left: 13%;
 }
+
 .form-control 
 {
 	border-radius: 0;
@@ -277,21 +279,21 @@
 .sub
 {
 	font-family: Corbel;
-	font-size: 24px;
+	font-size: 20px;
 	border: none;
-	height: 45px;
+	height: 34px;
 	background-image: none;
 	border-radius: 0;
-	padding: 5px 20px;
+	padding: 3px 20px;
 	text-shadow:none;
 	background-color: #FC6042;
-	transition:all .4s ease-out;
+	transition:all 0s ease-out;
 }
 .sub:hover
 {
 	background-color: #2CC990;
-	transition:all .2s ease-in;
-	box-shadow: 2px 2px 1px #FC6042;
+	transition:all 0s ease-in;
+	box-shadow: 1px 1px 1px #FC6042;
 }
 .search
 {
@@ -299,8 +301,11 @@
 	width:auto;
 	background-image: none;
 	background-color: #fff;
-	height: auto
+	height: auto;
+	border:2px solid #ccc;
+	box-shadow: none;
 }
+
 .search label
 {
 	padding-right: 10px;
@@ -375,9 +380,9 @@
 	background-color: #2CC990;
 	border-top-color: #2CC990;
 	border-left-color: #2CC990;
-	font-size: 19px;
+	font-size: 18px;
 	transition: all 0.1s ease-in;
-	box-shadow: 2px 2px 1px #FC6042;
+	box-shadow: 1px 1px 1px #FC6042;
 }
 .extra
 {
